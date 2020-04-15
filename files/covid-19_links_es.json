@@ -1,18 +1,18 @@
 [
     {
-        desc: "OMS - Sitio web sobre la COVID-19.",
-        link: "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019"
+        "desc": "OMS - Sitio web sobre la COVID-19.",
+        "link": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019"
     },
     {
-        desc: "OMS - Preguntas y respuestas sobre la enfermedad por coronavirus (COVID-19).",
-        link: "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+        "desc": "OMS - Preguntas y respuestas sobre la enfermedad por coronavirus (COVID-19).",
+        "link": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
     },
     {
-        desc: "OMS - Consejos para viajar.",
-        link: "https://www.who.int/ith/es/"
+        "desc": "OMS - Consejos para viajar.",
+        "link": "https://www.who.int/ith/es/"
     },
     {
-        desc: "Gobierno de Mexico - Sitio oficial Coronavirus.",
-        link: "https://coronavirus.gob.mx"
+        "desc": "Gobierno de Mexico - Sitio oficial Coronavirus.",
+        "link": "https://coronavirus.gob.mx"
     }
 ]
