@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "desc": "World Health Organization (WHO)",
+        "link": "https://www.who.int/"
+    },
+    {
+        "desc": "European Centre for Disease Prevention and Control (ECDC)",
+        "link": "https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases"
+    },
+    {
+        "desc": "Financial Times - Coronavirus tracked",
+        "link": "https://www.ft.com/coronavirus-latest"
+    },
+    {
+        "desc": "Worldometers - COVID-19 CORONAVIRUS PANDEMIC",
+        "link": "https://www.worldometers.info/coronavirus/#countries"
+    }
+
+]
