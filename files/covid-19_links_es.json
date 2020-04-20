@@ -14,5 +14,9 @@
     {
         "desc": "Gobierno de Mexico - Sitio oficial Coronavirus.",
         "link": "https://coronavirus.gob.mx"
+    },
+    {
+        "desc": "Información referente a casos COVID-19 en México",
+        "link": "https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico"
     }
 ]
