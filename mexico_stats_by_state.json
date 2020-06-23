@@ -1,1 +1,16 @@
-{"AGUASCALIENTES":{"confirmed":1876,"deaths":102},"BAJA CALIFORNIA":{"confirmed":7790,"deaths":1699},"BAJA CALIFORNIA SUR":{"confirmed":1221,"deaths":66},"CAMPECHE":{"confirmed":1324,"deaths":141},"COAHUILA DE ZARAGOZA":{"confirmed":2869,"deaths":156},"COLIMA":{"confirmed":385,"deaths":39},"CHIAPAS":{"confirmed":3778,"deaths":392},"CHIHUAHUA":{"confirmed":2622,"deaths":558},"CIUDAD DE MÉXICO":{"confirmed":42479,"deaths":4484},"DURANGO":{"confirmed":1364,"deaths":111},"GUANAJUATO":{"confirmed":4931,"deaths":250},"GUERRERO":{"confirmed":4288,"deaths":733},"HIDALGO":{"confirmed":3248,"deaths":522},"JALISCO":{"confirmed":5090,"deaths":457},"MÉXICO":{"confirmed":28505,"deaths":4095},"MICHOACÁN DE OCAMPO":{"confirmed":4496,"deaths":368},"MORELOS":{"confirmed":2291,"deaths":532},"NAYARIT":{"confirmed":1332,"deaths":151},"NUEVO LEÓN":{"confirmed":3750,"deaths":243},"OAXACA":{"confirmed":4049,"deaths":455},"PUEBLA":{"confirmed":7643,"deaths":920},"QUERÉTARO":{"confirmed":1713,"deaths":208},"QUINTANA ROO":{"confirmed":2946,"deaths":515},"SAN LUIS POTOSÍ":{"confirmed":2231,"deaths":101},"SINALOA":{"confirmed":6683,"deaths":1012},"SONORA":{"confirmed":5098,"deaths":427},"TABASCO":{"confirmed":8389,"deaths":891},"TAMAULIPAS":{"confirmed":4114,"deaths":259},"TLAXCALA":{"confirmed":2058,"deaths":264},"VERACRUZ DE IGNACIO DE LA LLAVE":{"confirmed":8129,"deaths":1274},"YUCATÁN":{"confirmed":3158,"deaths":324},"ZACATECAS":{"confirmed":695,"deaths":76},"ESTADOS UNIDOS MEXICANOS":{"confirmed":180545,"deaths":21825},"NO APLICA":{"confirmed":0,"deaths":0},"SE IGNORA":{"confirmed":0,"deaths":0},"NO ESPECIFICADO":{"confirmed":0,"deaths":0}}
+
+<--- Last few GCs --->
+
+[68217:0x102453000]    32774 ms: Scavenge 1398.9 (1422.0) -> 1398.1 (1423.0) MB, 2.5 / 0.0 ms  (average mu = 0.171, current mu = 0.049) allocation failure 
+[68217:0x102453000]    33717 ms: Mark-sweep 1399.1 (1423.0) -> 1398.3 (1422.0) MB, 921.0 / 0.0 ms  (+ 0.0 ms in 30 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 953 ms) (average mu = 0.115, current mu = 0.060) allocati
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+    0: ExitFrame [pc: 0x367cdca041bd]
+    1: StubFrame [pc: 0x367cdca4de18]
+Security context: 0x37dbc341e589 <JSObject>
+    2: replace [0x37dbc3410bd1](this=0x37db59af8c29 <String[4]: "15">,0x37db912981c1 <JSRegExp <String[14]: "([^"]+(?="))">>,0x37dba9da4549 <String[2]: $1>)
+    3: /* anonymous */ [0x37dbaa931599] [/Users/javiercruz/repos/covid-19_by_state_mexico/main.js:~1] [pc=0x367cdca71e1e](this=0x37dbaa931601 <Object map = 0x37dbac7...
+
