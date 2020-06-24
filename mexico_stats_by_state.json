@@ -1,0 +1,17 @@
+
+<--- Last few GCs --->
+
+[89021:0x102453000]    12531 ms: Mark-sweep 1021.4 (1039.7) -> 1020.9 (1038.2) MB, 685.7 / 0.0 ms  (average mu = 0.117, current mu = 0.053) allocation failure scavenge might not succeed
+[89021:0x102453000]    12537 ms: Scavenge 1021.7 (1038.2) -> 1021.2 (1038.7) MB, 2.6 / 0.0 ms  (average mu = 0.117, current mu = 0.053) allocation failure 
+[89021:0x102453000]    12548 ms: Scavenge 1021.9 (1038.7) -> 1021.5 (1039.7) MB, 2.6 / 0.0 ms  (average mu = 0.117, current mu = 0.053) allocation failure 
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+    0: ExitFrame [pc: 0x3b0dfde041bd]
+Security context: 0x290c0319e589 <JSObject>
+    1: csvToJson [0x290cdb760629] [/Users/javiercruz/repos/covid-19_by_state_mexico/node_modules/convert-csv-to-json/src/csvToJson.js:~42] [pc=0x3b0dfded4e80](this=0x290cdb763a81 <CsvToJson map = 0x290cc3fe3101>,parsedCsv=0x290cff202201 <Very long string[75324069]>)
+    2: getJsonFromCsv [0x290cdb7605b9] [/Users/javiercruz/repos/covid-19_by_state_mexico/node...
+
