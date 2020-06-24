@@ -1,16 +1,16 @@
 
 <--- Last few GCs --->
 
-[68217:0x102453000]    32774 ms: Scavenge 1398.9 (1422.0) -> 1398.1 (1423.0) MB, 2.5 / 0.0 ms  (average mu = 0.171, current mu = 0.049) allocation failure 
-[68217:0x102453000]    33717 ms: Mark-sweep 1399.1 (1423.0) -> 1398.3 (1422.0) MB, 921.0 / 0.0 ms  (+ 0.0 ms in 30 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 953 ms) (average mu = 0.115, current mu = 0.060) allocati
+[85721:0x102453000]    31329 ms: Mark-sweep 1398.5 (1422.3) -> 1397.6 (1421.3) MB, 1261.0 / 0.0 ms  (+ 0.0 ms in 16 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 1272 ms) (average mu = 0.133, current mu = 0.088) alloca[85721:0x102453000]    31351 ms: Scavenge 1398.7 (1421.8) -> 1397.9 (1422.3) MB, 5.8 / 0.0 ms  (average mu = 0.133, current mu = 0.088) allocation failure 
+
 
 <--- JS stacktrace --->
 
 ==== JS stack trace =========================================
 
-    0: ExitFrame [pc: 0x367cdca041bd]
-    1: StubFrame [pc: 0x367cdca4de18]
-Security context: 0x37dbc341e589 <JSObject>
-    2: replace [0x37dbc3410bd1](this=0x37db59af8c29 <String[4]: "15">,0x37db912981c1 <JSRegExp <String[14]: "([^"]+(?="))">>,0x37dba9da4549 <String[2]: $1>)
-    3: /* anonymous */ [0x37dbaa931599] [/Users/javiercruz/repos/covid-19_by_state_mexico/main.js:~1] [pc=0x367cdca71e1e](this=0x37dbaa931601 <Object map = 0x37dbac7...
+    0: ExitFrame [pc: 0x18c689f041bd]
+    1: StubFrame [pc: 0x18c689f4de18]
+Security context: 0x3847f201e589 <JSObject>
+    2: replace [0x3847f2010bd1](this=0x38478796e721 <String[4]: "26">,0x3847da018191 <JSRegExp <String[14]: "([^"]+(?="))">>,0x384745024549 <String[2]: $1>)
+    3: /* anonymous */ [0x384767290679] [/Users/javiercruz/repos/covid-19_by_state_mexico/main.js:~1] [pc=0x18c689f75e91](this=0x3847672906e1 <Object map = 0x3847b5b...
 
