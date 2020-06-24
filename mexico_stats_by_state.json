@@ -1,17 +1,1 @@
-
-<--- Last few GCs --->
-
-[89021:0x102453000]    12531 ms: Mark-sweep 1021.4 (1039.7) -> 1020.9 (1038.2) MB, 685.7 / 0.0 ms  (average mu = 0.117, current mu = 0.053) allocation failure scavenge might not succeed
-[89021:0x102453000]    12537 ms: Scavenge 1021.7 (1038.2) -> 1021.2 (1038.7) MB, 2.6 / 0.0 ms  (average mu = 0.117, current mu = 0.053) allocation failure 
-[89021:0x102453000]    12548 ms: Scavenge 1021.9 (1038.7) -> 1021.5 (1039.7) MB, 2.6 / 0.0 ms  (average mu = 0.117, current mu = 0.053) allocation failure 
-
-
-<--- JS stacktrace --->
-
-==== JS stack trace =========================================
-
-    0: ExitFrame [pc: 0x3b0dfde041bd]
-Security context: 0x290c0319e589 <JSObject>
-    1: csvToJson [0x290cdb760629] [/Users/javiercruz/repos/covid-19_by_state_mexico/node_modules/convert-csv-to-json/src/csvToJson.js:~42] [pc=0x3b0dfded4e80](this=0x290cdb763a81 <CsvToJson map = 0x290cc3fe3101>,parsedCsv=0x290cff202201 <Very long string[75324069]>)
-    2: getJsonFromCsv [0x290cdb7605b9] [/Users/javiercruz/repos/covid-19_by_state_mexico/node...
-
+{"AGUASCALIENTES":{"confirmed":1960,"deaths":106},"BAJA CALIFORNIA":{"confirmed":8057,"deaths":1749},"BAJA CALIFORNIA SUR":{"confirmed":1275,"deaths":68},"CAMPECHE":{"confirmed":1436,"deaths":150},"COAHUILA DE ZARAGOZA":{"confirmed":3123,"deaths":168},"COLIMA":{"confirmed":428,"deaths":47},"CHIAPAS":{"confirmed":3924,"deaths":420},"CHIHUAHUA":{"confirmed":2665,"deaths":578},"CIUDAD DE MÉXICO":{"confirmed":43596,"deaths":4669},"DURANGO":{"confirmed":1393,"deaths":117},"GUANAJUATO":{"confirmed":5449,"deaths":280},"GUERRERO":{"confirmed":4611,"deaths":801},"HIDALGO":{"confirmed":3420,"deaths":541},"JALISCO":{"confirmed":5528,"deaths":488},"MÉXICO":{"confirmed":30011,"deaths":4536},"MICHOACÁN DE OCAMPO":{"confirmed":4785,"deaths":395},"MORELOS":{"confirmed":2495,"deaths":632},"NAYARIT":{"confirmed":1380,"deaths":160},"NUEVO LEÓN":{"confirmed":4092,"deaths":258},"OAXACA":{"confirmed":4224,"deaths":496},"PUEBLA":{"confirmed":8427,"deaths":972},"QUERÉTARO":{"confirmed":1764,"deaths":226},"QUINTANA ROO":{"confirmed":3011,"deaths":524},"SAN LUIS POTOSÍ":{"confirmed":2455,"deaths":114},"SINALOA":{"confirmed":7315,"deaths":1091},"SONORA":{"confirmed":6188,"deaths":542},"TABASCO":{"confirmed":8956,"deaths":917},"TAMAULIPAS":{"confirmed":4524,"deaths":272},"TLAXCALA":{"confirmed":2134,"deaths":280},"VERACRUZ DE IGNACIO DE LA LLAVE":{"confirmed":8662,"deaths":1362},"YUCATÁN":{"confirmed":3409,"deaths":336},"ZACATECAS":{"confirmed":713,"deaths":82},"ESTADOS UNIDOS MEXICANOS":{"confirmed":191410,"deaths":23377},"NO APLICA":{"confirmed":0,"deaths":0},"SE IGNORA":{"confirmed":0,"deaths":0},"NO ESPECIFICADO":{"confirmed":0,"deaths":0}}
